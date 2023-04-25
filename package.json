@@ -1,8 +1,8 @@
 {
-  "name": "lab6",
+  "name": "ExerciseApp",
+  "homepage": "https://murrmaid4.github.io/Portfolio-exercise-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://murrmaid4.github.io/exercise-app-lab-6",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
   "dependencies": {
