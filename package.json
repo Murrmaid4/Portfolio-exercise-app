@@ -1,6 +1,6 @@
 {
-  "name": "ExerciseApp",
-  "homepage": "https://murrmaid4.github.io/Portfolio-exercise-app",
+  "name": "exercise-app",
+  "homepage": "https://murrmaid4.github.io/portfolio-exercise-app",
   "version": "0.1.0",
   "private": true,
   "predeploy": "npm run build",
