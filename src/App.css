@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+
+  background-color: #77d2f6;
+
+  margin: 0px;
+
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+nav {
+  text-align: center;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+ 
+}
+@media screen and (max-width: 998px) {
+ nav{ transition: 0.8s all ease;}
+}
+
+.nav-container{
+
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  padding: 0 24px;
+  max-width: 1800px;
+}
+nav button{
+  background-color: transparent;
+}
+
+nav button:hover{
+  border-bottom: 3px solid #C270CC;
+  color: #C270CC;
+}
+
+.mobile-icon{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  nav{ transition: 0.8s all ease;}
+  .mobile-icon{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+  .nav-menu{display: none;}
+
+}
+
+button {
+  margin-right: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  
+  font-family: inherit;
+  cursor: pointer;
+  background-color: #C270CC;
+  color: white;
+  font-weight: 600;
+
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+input[type=text] {
+  
+  
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+p{
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.container{
+display: flex;
+    flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
